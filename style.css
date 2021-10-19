@@ -1530,6 +1530,10 @@ header {
 }
 
 @media (max-width: 420px) {
+    #myBtn {
+        display: none;
+    }
+
     #burger-btn, #burger-btn-1024, #burger-btn-768 {
         display: none;
     }
@@ -1557,11 +1561,15 @@ header {
     }
 
     .welcome {
-        width: 248px;
+        width: 270px;
         height: 80px;
 
-        font-size: 28px;
+        font-size: 30px;
         line-height: 40px;
+
+        text-align: center;
+
+        letter-spacing: 5px;
     }
 
     .welcome-sub-title {
@@ -1569,7 +1577,9 @@ header {
         line-height: 19px;
         letter-spacing: 2px;
 
-        max-width: 262px;
+        max-width: 240px;
+
+        text-align: center;
     }
     
     .div-square {
@@ -1617,9 +1627,9 @@ header {
         margin-bottom: 20px;
     }
 
-    #myBtn, #myBtn:hover {
+    /* #myBtn, #myBtn:hover {
         border: 1px;
-    }
+    } */
 
     .header > .center-container {
         height: 630px;
